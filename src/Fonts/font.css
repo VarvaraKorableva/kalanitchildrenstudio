@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Karton'; /* Имя вашего шрифта */
+    src: url('./Karton.otf') format('opentype'); /* Путь к файлу шрифта */
+    font-weight: normal; /* Укажите нужный вес */
+    font-style: normal; /* Укажите стиль, если нужно */
+}
