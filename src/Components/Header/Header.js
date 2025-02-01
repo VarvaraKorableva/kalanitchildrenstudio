@@ -11,20 +11,20 @@ function Header() {
                 <h3 className="header__logo-text">Каланит Клита</h3>
             </div>
 
-            <ul className='header__nav-container'>
-            <li className='header__link'>
+            <div className='header__nav-container'>
+                <li className='header__link'>
                     <p className='header__link-title'>О нас</p>
                 </li>
-                <li className='header__link'>
-                    <p className='header__link-title'>Расписание</p>
-                </li>
+                <a href="#schedule" className='header__link'>
+                    <p className="header__link-title">Расписание</p>
+                </a>
                 <li className='header__link'>
                     <p className='header__link-title'>Фотографии</p>
                 </li>
                 <li className='header__link'>
                     <p className='header__link-title'>Контакты</p>
                 </li>
-            </ul>
+            </div>
             </div>
 
             <div className='header__grass-container'>

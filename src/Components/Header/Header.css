@@ -71,6 +71,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }    
 
 .header__link:hover {
@@ -81,7 +82,6 @@
 .header__link-title {
     font-family: "Karton", sans-serif;
     font-weight: 600;
-
     color: rgb(3, 28, 61);
 }
 

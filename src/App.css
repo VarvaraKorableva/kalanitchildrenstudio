@@ -1,5 +1,10 @@
+.nowrap {
+  white-space: nowrap;
+}
+
 .App {
   text-align: center;
+  font-family: "Karton", sans-serif;
 }
 
 .App-logo {
