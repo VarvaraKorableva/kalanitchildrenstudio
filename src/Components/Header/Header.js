@@ -31,6 +31,7 @@ function Header() {
                 <div className='header__grass'></div>
                 <div className='header__grass'></div>
                 <div className='header__grass'></div>
+                <div className='header__grass'></div>
             </div>
         </section>
     )

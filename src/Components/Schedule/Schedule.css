@@ -1,0 +1,65 @@
+.schedule__section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.schedule__wrapper {
+    padding: 0;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 10px;
+    margin: auto;
+}
+.schedule__card {
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+
+.schedule__card_blue {
+    border: 5px dotted rgb(40, 111, 204);
+    background-color: rgba(40, 111, 204, 0.1); /* Легкий оттенок синего */
+}
+
+.schedule__card_red {
+    border: 5px dotted rgb(243, 28, 28);
+    background-color: rgba(243, 28, 28, 0.1); /* Легкий оттенок красного */
+}
+
+.schedule__card_green {
+    border: 5px dotted rgb(74, 187, 39);
+    background-color: rgba(74, 187, 39, 0.1); /* Легкий оттенок зеленого */
+}
+
+.schedule__card_pink {
+    border: 5px dotted rgb(221, 32, 221);
+    background-color: rgba(221, 32, 221, 0.1); /* Легкий оттенок розового */
+}
+
+.schedule__card_orange {
+    border: 5px dotted rgb(233, 106, 21);
+    background-color: rgba(233, 106, 21, 0.1); /* Легкий оттенок оранжевого */
+}
+
+.schedule__card_purple {
+    border: 5px dotted rgb(218, 118, 243);
+    background-color: rgba(218, 118, 243, 0.1); /* Легкий оттенок фиолетового */
+}
+
+.schedule__card-class-name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.schedule__card-class-days {
+
+}
+.schedule__card-class-times {
+
+}
+.schedule__card-class-age {
+
+}
