@@ -1,5 +1,6 @@
 import './Schedule.css'
 import React, { useState, useRef } from 'react'
+import Heading from '../ui-kit/Heading/Heading'
 
 function Schedule() {
     const data = [
@@ -63,7 +64,7 @@ function Schedule() {
             color: "purple"
         },
         {
-            id: 10,
+            id: 7,
             name: "Вышивание",
             class: "",
             groups: "",
@@ -73,7 +74,7 @@ function Schedule() {
             color: "purple"
         },
         {
-            id: 11,
+            id: 8,
             name: "Карате",
             class: "",
             groups: "",
@@ -83,17 +84,17 @@ function Schedule() {
             color: "purple"
         },
         {
-            id: 7,
+            id: 9,
             name: "Помощь с домашним заданием",
             class: "1-3 класс",
             groups: "",
             days: "понедельник, вторник, среда, четверг",
             time: "14.00-15.30",
-            age: "",
+            age: "6-9 лет",
             color: "purple"
         },
         {
-            id: 12,
+            id: 10,
             name: "Танцы",
             class: "",
             groups: "",
@@ -103,7 +104,7 @@ function Schedule() {
             color: "purple"
         },
         {
-            id: 13,
+            id: 11,
             name: "Фортепьяно",
             class: "",
             groups: "5 групп",
@@ -113,17 +114,17 @@ function Schedule() {
             color: "purple"
         },
         {
-            id: 70,
+            id: 12,
             name: "Помощь с домашним заданием",
             class: "4-6 класс",
             groups: "",
             days: "понедельник, вторник, среда, четверг",
             time: "15.30-17.00",
-            age: "",
+            age: "10-13 лет",
             color: "orange"
         },
         {
-            id: 8,
+            id: 13,
             name: "Гитара",
             class: "",
             groups: "",
@@ -133,7 +134,7 @@ function Schedule() {
             color: "blue"
         },
         {
-            id: 9,
+            id: 14,
             name: "Актерское мастерство",
             groups: "",
             days: "четверг",
@@ -142,7 +143,7 @@ function Schedule() {
             color: "orange"
         },
         {
-            id: 14,
+            id: 15,
             name: "Математика",
             class: "",
             groups: "",
@@ -172,7 +173,7 @@ function Schedule() {
 
     return (
         <section className="schedule__section" ref={sectionRef} id='schedule'>
-            <h2 className="schedule__title">Расписание</h2>
+            <Heading>Расписание</Heading>
         
             <div className="schedule__sort-container">
             <p className="schedule__sort-title">Фильтровать по возрасту:</p>
@@ -212,15 +213,15 @@ function Schedule() {
 
             <ul className="schedule__wrapper">
                 {
-                    scheduleData.map((i) => (
+                    scheduleData.map((i, index) => (
                         <li key={i.id} className={`schedule__card schedule__card_${i.color}`}>
                             
                             <p className="schedule__card-class-name">{i.name}</p>
                             <p className="schedule__card-class">{i.class}</p>
                             {/*<p className="schedule__card-class-groups">{i.groups}</p>*/}
-                            <p className="schedule__card-class-days">{i.days}</p>
-                            <p className="schedule__card-class-times">{i.time}</p>
-                            <p className="schedule__card-class-age">{i.age}</p>
+                            <p className="schedule__card-class-days"><span className="schedule__opacity">Дни недели:</span> {i.days}</p>
+                            <p className="schedule__card-class-times"><span className="schedule__opacity">Время:</span> {i.time}</p>
+                            <p className="schedule__card-class-age"><span className="schedule__opacity">Возраст: </span>{i.age}</p>
                         </li>
                     ))
                 }

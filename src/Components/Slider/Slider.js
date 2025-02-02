@@ -6,9 +6,9 @@ import './Slider.css';
 
 function Slider() {
     const images = [
-        { id: 1, src: first, link: '', text: NaN, trigger: false },
-        { id: 2, src: second, link: '', text: NaN, trigger: false },
-        { id: 2, src: third, link: '', text: NaN, trigger: false },
+        { id: 1, src: first, link: 'https://forms.gle/QHtvJQ8v4ugrE5ui7', text: NaN, trigger: false },
+        
+        { id: 3, src: third, link: 'https://forms.gle/VRC1ttzDtnQuENNQ7', text: NaN, trigger: false },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -80,14 +80,14 @@ function Slider() {
         >
             <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {images.map((image, index) => (
-                    <div
+                    <devicePixelRatio 
                         key={image.id}
                         className={`slide ${currentSlide === index ? 'active' : ''}`}
                     >
-                        <div>
+                        <a href={image.link} target='_blank'>
                             <img src={image.src} alt={`Slide ${image.id + 1}`} />
-                        </div>
-                    </div>
+                        </a>
+                    </devicePixelRatio>
                 ))}
             </div>
             <div className="dots">

@@ -64,8 +64,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 150px;
-    height: 60px;
+    width: 170px;
+    height: 70px;
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -83,6 +83,7 @@
     font-family: "Karton", sans-serif;
     font-weight: 600;
     color: rgb(3, 28, 61);
+    font-size: 20px;
 }
 
 .header__grass {
@@ -104,19 +105,10 @@
         width: 50px;
         height: 50px;
     }
-
-    .header__link {
-        width: 120px;
-        height: 60px;
-    }
-}
-
-@media screen and (max-width: 830px) {
     .header__wrapper {
         flex-direction: column;
         align-items: unset;
     }
-
     .header__nav-container {
         justify-content: flex-end;
     }
@@ -125,16 +117,27 @@
         align-self: flex-start;
     }
 
-    .header__link {
-        width: 150px;
-        height: 60px;
-    }
+}
+
+@media screen and (max-width: 830px) {
 
     .header__grass:nth-of-type(2){
         display: none;
     }
 
 }    
+
+@media screen and (max-width: 650px) {
+    .header__nav-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 10px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}   
 
 @media screen and (max-width: 480px) {
     .header__section {
@@ -146,22 +149,6 @@
         width: calc(100% - 20px);
     }
 
-    .header__nav-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: auto;
-        gap: 10px;
-
-        max-width: 320px;
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .header__link {
-        width: 150px;
-        height: 70px;
-    }
-
     .header__grass {
        width: 100%;
     }
@@ -169,4 +156,15 @@
     .header__grass:last-of-type {
         display: none;
     }
-}    
+}   
+
+@media screen and (max-width: 400px) {
+    .header__link-title {
+        font-size: 16px;
+    }
+
+    .header__link {
+        width: 140px;
+        height: 60px;
+    } 
+} 

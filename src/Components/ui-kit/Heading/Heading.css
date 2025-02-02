@@ -1,0 +1,17 @@
+.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: start;
+    font-family: "Karton", sans-serif;
+    color: rgb(3, 28, 61);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 550px) {
+    .heading { 
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}

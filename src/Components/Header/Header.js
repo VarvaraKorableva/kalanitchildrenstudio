@@ -12,18 +12,18 @@ function Header() {
             </div>
 
             <div className='header__nav-container'>
-                <li className='header__link'>
+                <a href="#about" className='header__link'>
                     <p className='header__link-title'>О нас</p>
-                </li>
+                </a>
                 <a href="#schedule" className='header__link'>
                     <p className="header__link-title">Расписание</p>
                 </a>
-                <li className='header__link'>
-                    <p className='header__link-title'>Фотографии</p>
-                </li>
-                <li className='header__link'>
+                <a href="#events" className='header__link'>
+                    <p className='header__link-title'>События</p>
+                </a>
+                <a href="#contacts" className='header__link'>
                     <p className='header__link-title'>Контакты</p>
-                </li>
+                </a>
             </div>
             </div>
 

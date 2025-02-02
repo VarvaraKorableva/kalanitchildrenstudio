@@ -8,17 +8,6 @@
     padding: 0 20px 0 20px;
 }
 
-.schedule__title {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: start;
-    font-family: "Karton", sans-serif;
-    color: rgb(3, 28, 61);
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
 .schedule__wrapper {
     padding: 0;
     max-width: 1000px;
@@ -33,13 +22,14 @@
     list-style-type: none;
     padding: 0 10px 0 10px;
     font-family: "Karton", sans-serif;
+    font-size: 22px;
     color: rgb(3, 28, 61);
     min-width: 150px;
 }
 
 .schedule__card_blue {
     border: 5px dotted rgb(40, 111, 204);
-    background-color: rgba(40, 111, 204, 0.1); /* Легкий оттенок синего */
+    background-color: rgba(40, 111, 204, 0.1);
 }
 
 .schedule__card_red {
@@ -67,11 +57,15 @@
     background-color: rgba(218, 118, 243, 0.1); /* Легкий оттенок фиолетового */
 }
 
+.schedule__opacity {
+    opacity: 0.6;
+}
+
 .schedule__card-class-name {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 0;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .schedule__card-class-groups {
@@ -80,16 +74,20 @@
     font-weight: 700;
 }
 .schedule__card-class {
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .schedule__card-class-days {
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .schedule__card-class-times {
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .schedule__card-class-age {
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .schedule__sort-container {
@@ -110,7 +108,9 @@
     border-radius: 20px;
     height: 35px;
     cursor: pointer;
-}
+    font-family: "Karton", sans-serif;
+    color: rgb(3, 28, 61);
+}    
 
 .schedule__age-btn_purple {
     border: 1px solid rgb(218, 118, 243);
@@ -187,6 +187,15 @@
         min-width: 130px;
     }
 } 
+
+@media screen and (max-width: 550px) {
+    .schedule__card-class-name  {
+        font-size: 22px;
+    }
+    .schedule__card {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .schedule__section {
