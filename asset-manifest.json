@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kalanitchildrenstudio/static/css/main.0c1c5bd3.css",
-    "main.js": "/kalanitchildrenstudio/static/js/main.290f099c.js",
+    "main.css": "/kalanitchildrenstudio/static/css/main.859e5f68.css",
+    "main.js": "/kalanitchildrenstudio/static/js/main.8fbe1f06.js",
     "static/js/488.6e450998.chunk.js": "/kalanitchildrenstudio/static/js/488.6e450998.chunk.js",
     "static/media/map.png": "/kalanitchildrenstudio/static/media/map.0b1c47e82cefe4e8d6d9.png",
     "static/media/3.png": "/kalanitchildrenstudio/static/media/3.769684f6c69e3c29ab37.png",
@@ -18,12 +18,12 @@
     "static/media/logo.png": "/kalanitchildrenstudio/static/media/logo.b6b9cad043c85528afda.png",
     "static/media/logo.svg": "/kalanitchildrenstudio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kalanitchildrenstudio/index.html",
-    "main.0c1c5bd3.css.map": "/kalanitchildrenstudio/static/css/main.0c1c5bd3.css.map",
-    "main.290f099c.js.map": "/kalanitchildrenstudio/static/js/main.290f099c.js.map",
+    "main.859e5f68.css.map": "/kalanitchildrenstudio/static/css/main.859e5f68.css.map",
+    "main.8fbe1f06.js.map": "/kalanitchildrenstudio/static/js/main.8fbe1f06.js.map",
     "488.6e450998.chunk.js.map": "/kalanitchildrenstudio/static/js/488.6e450998.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c1c5bd3.css",
-    "static/js/main.290f099c.js"
+    "static/css/main.859e5f68.css",
+    "static/js/main.8fbe1f06.js"
   ]
 }
