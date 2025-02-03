@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/kalanitchildrenstudio/static/css/main.859e5f68.css",
-    "main.js": "/kalanitchildrenstudio/static/js/main.8fbe1f06.js",
+    "main.css": "/kalanitchildrenstudio/static/css/main.0206d65a.css",
+    "main.js": "/kalanitchildrenstudio/static/js/main.2c13f7a9.js",
     "static/js/488.6e450998.chunk.js": "/kalanitchildrenstudio/static/js/488.6e450998.chunk.js",
+    "static/media/cloud1.png": "/kalanitchildrenstudio/static/media/cloud1.0041c14fba05c3b42007.png",
     "static/media/map.png": "/kalanitchildrenstudio/static/media/map.0b1c47e82cefe4e8d6d9.png",
     "static/media/3.png": "/kalanitchildrenstudio/static/media/3.769684f6c69e3c29ab37.png",
     "static/media/grass.png": "/kalanitchildrenstudio/static/media/grass.c1febd655a048d682d06.png",
@@ -12,18 +13,17 @@
     "static/media/flowers.png": "/kalanitchildrenstudio/static/media/flowers.c99847cf35119a883b7b.png",
     "static/media/snegana.jpeg": "/kalanitchildrenstudio/static/media/snegana.88c4ce659154359aaa48.jpeg",
     "static/media/julia.jpeg": "/kalanitchildrenstudio/static/media/julia.66c27c8d60757c1e95ce.jpeg",
-    "static/media/cloud.png": "/kalanitchildrenstudio/static/media/cloud.8e7b0c07c0289c0d0e97.png",
     "static/media/zigzag.png": "/kalanitchildrenstudio/static/media/zigzag.9fbe26fe0ddec58b3ac0.png",
     "static/media/sun.png": "/kalanitchildrenstudio/static/media/sun.620c7e373ff1272e6272.png",
     "static/media/logo.png": "/kalanitchildrenstudio/static/media/logo.b6b9cad043c85528afda.png",
     "static/media/logo.svg": "/kalanitchildrenstudio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kalanitchildrenstudio/index.html",
-    "main.859e5f68.css.map": "/kalanitchildrenstudio/static/css/main.859e5f68.css.map",
-    "main.8fbe1f06.js.map": "/kalanitchildrenstudio/static/js/main.8fbe1f06.js.map",
+    "main.0206d65a.css.map": "/kalanitchildrenstudio/static/css/main.0206d65a.css.map",
+    "main.2c13f7a9.js.map": "/kalanitchildrenstudio/static/js/main.2c13f7a9.js.map",
     "488.6e450998.chunk.js.map": "/kalanitchildrenstudio/static/js/488.6e450998.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.859e5f68.css",
-    "static/js/main.8fbe1f06.js"
+    "static/css/main.0206d65a.css",
+    "static/js/main.2c13f7a9.js"
   ]
 }
